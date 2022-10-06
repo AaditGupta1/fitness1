@@ -1,36 +1,27 @@
 body{
-    background-image: url(aura.png);
-    background-repeat: no-repeat;
-    background-size: 32%;
     font-family: Comic Sans MS;
-    background-color: '#f5ecd7';
+    background-color: #f5ecd7;
     color: #444444;
 }
 
 h1{
     color: #444444;
-    margin-left: 500px;
+    margin-left: 10px;
     margin-top: 30px;
-}
-
-#line{
-    font-size: 4;
-    background-color: black;
-    position: relative;
-    margin-left: 490px;
+    margin-left: 50px;
 }
 
 #info{
-    width: 268px;
-    margin-left: 500px;
+    width: 500px;
+    margin-left: 50px;
     font-size: 16px;
-    display: inline-block;
 }
 
 #run{
-    width: 316px;
-    height: 376px;
-    margin-left: 490px;
+    width: 150px;
+    height: 180px;
+    margin-right: 200px;
+    margin-left: 50px;
 }
 
 #about,#fitness,#contact{
@@ -42,7 +33,7 @@ h1{
 }
 
 #about{
-    margin-left: 350px;
+    margin-left: 50px;
 }
 
 #fitness{
@@ -65,20 +56,14 @@ h1{
     font-size: 23px;
 }
 
-#diet{
-    width: 300px;
-    height: 360px;
-    margin-left: 100px;
-}
-
 #h,#w,#submit{
-    display: inline-block;
-    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 50px;
 }
 
 #bmi{
-    display: inline-block;
-    margin-left: 35px;
+    margin-left: 50px;
 }
 
 #submit{
@@ -87,5 +72,13 @@ h1{
 
 figure{
     margin-top: 100px;
-    margin-left: 600px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+#line{
+    width: 800px;
+    line-height: 1;
+    background-color: black;
+    color: black;
 }
