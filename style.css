@@ -1,0 +1,91 @@
+body{
+    background-image: url(aura.png);
+    background-repeat: no-repeat;
+    background-size: 32%;
+    font-family: Comic Sans MS;
+    background-color: '#f5ecd7';
+    color: #444444;
+}
+
+h1{
+    color: #444444;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+#line{
+    font-size: 4;
+    background-color: black;
+    position: relative;
+    margin-left: 490px;
+}
+
+#info{
+    width: 268px;
+    margin-left: 500px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+#run{
+    width: 316px;
+    height: 376px;
+    margin-left: 490px;
+}
+
+#about,#fitness,#contact{
+    color: #444444;
+    border: 0;
+    background-color: white;
+    font-size: 20px;
+    font-family: Comic Sans MS;
+}
+
+#about{
+    margin-left: 350px;
+}
+
+#fitness{
+    margin-left: 30px;
+}
+
+#contact{
+    margin-left: 30px;
+}
+
+#about:hover{
+    font-size: 23px;
+}
+
+#fitness:hover{
+    font-size: 23px;
+}
+
+#contact:hover{
+    font-size: 23px;
+}
+
+#diet{
+    width: 300px;
+    height: 360px;
+    margin-left: 100px;
+}
+
+#h,#w,#submit{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#bmi{
+    display: inline-block;
+    margin-left: 35px;
+}
+
+#submit{
+    width: 100px;
+}
+
+figure{
+    margin-top: 100px;
+    margin-left: 600px;
+}
