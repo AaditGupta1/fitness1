@@ -2,11 +2,12 @@
 
     <head>
 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+
         <title>The Aura</title>
 
         <link rel="stylesheet" href="style.css">
-
-        <meta name="viewport" content="width=device-width">
 
     </head>
 
@@ -16,28 +17,25 @@
                         <a id="fitness" href="">FITNESS</a>
                         <a id="contact" href="https://devakproprogrammer.github.io/Contact-us/">CONTACT</a></h1>
 
-        <label id="line">--------------------------------------------------------------------------------
-            --------------------------------------------------------------------------------
-            --------------------------------------------------------------------------------
-            --------------------------------------------------------------------------------
-            --------------------------------------------------------------------------------
-            --------------------------------------------------------------------------------
-            --------------------------------------------------------------------------------
-            -----------------------------------------</label>
-
         <p id="info">Fitness is a state of health and well-being and, more specifically, the ability to perform aspects of sports, occupations and daily activities. Fitness is generally achieved through proper nutrition, moderate-vigorous physical exercise, and sufficient rest along with a formal recovery plan.</p>
-
-        <p id="bmi">BMI CALCULATOR</p>
-
-        <input id="h" placeholder="Enter Height(metre)">
-
-        <input id="w" placeholder="Enter Weight(kg)">
-
-        <input id="submit" value="Submit" readonly="readonly" onclick="calc()">
 
         <img id="run" src="run.jpg">
 
-        <img id="diet" src="diet_chart.jpg">
+        <p id="bmi"><b>BMI CALCULATOR</b></p>
+
+        <input id="h" placeholder="Enter Height(metre)">
+
+        <br>
+
+        <input id="w" placeholder="Enter Weight(kg)">
+
+        <br>
+
+        <input id="submit" value="Submit" readonly="readonly" onclick="calc()">
+
+        <br><br>
+
+        <h6 id="line">-</h6>
 
         <figure class="wp-block-table"><table><tbody><tr><td><span style="font-weight: bold;">Day 1</span></td><td><span style="font-weight: bold;">Diet Chart</span></td></tr><tr><td>6:30 AM</td><td>Cucumber Detox Water (1 glass)</td></tr><tr><td>8:00 AM</td><td>Oats Porridge in Skimmed Milk (1 bowl)<p>&nbsp;</p><p>Mixed Nuts (25 grams)</p></td></tr><tr><td>12:00 PM</td><td>Skimmed Milk Paneer (100 grams)</td></tr><tr><td>2:00 PM</td><td>Mixed Vegetable Salad (1 katori)</td></tr><tr><td>2:10 PM</td><td>Dal(1 katori)Gajar Matar Sabzi (1 katori)<p>&nbsp;</p><p>Roti (1 roti/chapati)</p></td></tr><tr><td>4:00 PM</td><td>Cut Fruits (1 cup) Buttermilk (1 glass)</td></tr><tr><td>5:30 PM</td><td>Tea with Less Sugar and Milk (1 teacup)</td></tr><tr><td>8:50 PM</td><td>Mixed Vegetable Salad (1 katori)</td></tr><tr><td>9:00 PM</td><td>Dal (1 katori) Lauki Sabzi (1 katori)<p>&nbsp;</p><p>Roti (1 roti/chapati)</p></td></tr></tbody></table></figure>
 
@@ -60,7 +58,7 @@
         function calc(){
             height = document.getElementById('h').value;
             weight = document.getElementById('w').value;
-            alert(Math.round(weight/(height*height)))
+            alert("BMI - "+(Math.round(weight/(height*height))))
         }
 
     </script>
